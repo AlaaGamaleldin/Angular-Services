@@ -1,0 +1,23 @@
+#products-container{
+    background-color: #088395;
+    text-align: center;
+    color:white;
+}
+
+#products-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));   
+}
+#products{
+    color:black;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 10px;
+}
+#products-container>h2{
+    display: block;
+}
+#products-container .line{
+    display: block;
+}
+

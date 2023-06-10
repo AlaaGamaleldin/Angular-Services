@@ -1,7 +1,10 @@
 <div id="products-container">
     <h2>product list</h2>
-    <hr class="">
-    <div *ngFor="let product of products; index as i">
+    <hr class="line">
+<div id="products-card">
+    
+    <div id="products" *ngFor="let product of products; index as i">
         <app-product-card [product]="product"/>
     </div>
+</div>
 </div>
