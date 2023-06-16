@@ -4,10 +4,15 @@
     text-decoration: dotted;
     font-size: 50px;
     text-align: center;
-    padding: ;
 }
 #header-section h1{
     
     color: #1D267D;
 }
-
+a{
+    list-style: none;
+    margin: 10px;
+    background-color: #1D267D;
+    color: aliceblue;
+    
+}
